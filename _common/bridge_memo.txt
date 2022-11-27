@@ -1,0 +1,25 @@
+
+______ interface
+
+type Computer interface {
+    Print()
+    SetPrinter(Printer)
+}
+
+type Printer interface {
+    PrintFile()
+}
+
+
+_____ imp
+
+imp_Computer
+
+  mac
+  windows
+
+imp_Printer
+
+  hp
+  epson
+

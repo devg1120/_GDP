@@ -1,0 +1,4 @@
+# all main package
+
+go run *.go
+go run bridge_main.go

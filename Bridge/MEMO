@@ -1,0 +1,3 @@
+# all main package
+
+go run *.go
