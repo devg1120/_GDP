@@ -1,11 +1,7 @@
 package abstract_factory
 
-
-
-type ISportsFactory interface {
-    makeShoe() IShoe
-    makeShirt() IShirt
-}
+import "fmt"
+import .  "abstract_factory/interface"
 
 
 func GetSportsFactory(brand string) (ISportsFactory, error) {

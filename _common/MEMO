@@ -1,4 +1,5 @@
-# all main package
+https://refactoring.guru/ja/design-patterns/go
 
-go run *.go
-go run bridge_main.go
+go mod init *******
+go build
+go test -v
