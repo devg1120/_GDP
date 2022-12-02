@@ -1,0 +1,6 @@
+package  up_layer
+
+type Iup_layer_api interface {
+  Put(Iup_layer_put_data)
+  Get() Iup_layer_get_data)
+}
